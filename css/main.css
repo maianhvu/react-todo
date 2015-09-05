@@ -1,0 +1,137 @@
+/* Media queries */
+/* Font sizes */
+/* line 28, ../sass/main.scss */
+html, body {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 31, ../sass/main.scss */
+html *, body * {
+  -moz-box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/* line 34, ../sass/main.scss */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Input types */
+/* line 41, ../sass/main.scss */
+input[type="text"] {
+  outline: none;
+}
+
+/* line 45, ../sass/main.scss */
+.container {
+  width: 100%;
+  padding: 0 1em;
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 480px) {
+  /* line 52, ../sass/main.scss */
+  .container {
+    max-width: 560px;
+    margin: auto;
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  /* line 60, ../sass/main.scss */
+  .container {
+    max-width: 760px;
+    padding: 0;
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  /* line 68, ../sass/main.scss */
+  .container {
+    max-width: 960px;
+    font-size: 22px;
+  }
+}
+/* line 76, ../sass/main.scss */
+.todo--count {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #777;
+}
+/* line 81, ../sass/main.scss */
+.todo--count strong {
+  color: #222;
+}
+
+/* line 84, ../sass/main.scss */
+.todo--item {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  border: 1px solid #eee;
+  background-color: #f7f7f7;
+}
+/* line 90, ../sass/main.scss */
+.todo--item .todo__task {
+  color: #073642;
+}
+/* line 92, ../sass/main.scss */
+.todo--item:nth-child(even) {
+  background-color: #fefefe;
+}
+/* line 95, ../sass/main.scss */
+.todo--item:nth-child(even) .todo__task {
+  color: #002b36;
+}
+
+/* line 99, ../sass/main.scss */
+.todo__details {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+/* line 104, ../sass/main.scss */
+.todo__completed {
+  -moz-text-align: center;
+  text-align: center;
+}
+
+/* line 108, ../sass/main.scss */
+.todo__completed,
+.todo__details {
+  padding: .5rem;
+}
+
+/* line 113, ../sass/main.scss */
+.todo__task {
+  font-weight: bold;
+}
+
+/* line 117, ../sass/main.scss */
+.todo__due {
+  color: #93a1a1;
+  font-size: .75em;
+}
+
+/* line 122, ../sass/main.scss */
+.todo--form {
+  margin-top: 1em;
+}
+/* line 125, ../sass/main.scss */
+.todo--form label,
+.todo--form input {
+  display: block;
+  margin-bottom: .25rem;
+}
+/* line 131, ../sass/main.scss */
+.todo--form label {
+  font-size: .9rem;
+  font-weight: bold;
+}

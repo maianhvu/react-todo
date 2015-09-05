@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/app.jsx"],"names":[],"mappings":";;;AACA,IAAI,KAAK,GAAG,KAAK,IAAI,OAAO,CAAC,OAAO,CAAC,CAAC","file":"src/app.jsx","sourcesContent":["// Detect whether there is a need for browserify\nvar React = React || require('react');\n"]}

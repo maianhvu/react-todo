@@ -1,0 +1,7 @@
+{
+  "todosData": [
+    { "task": "Buy groceries", completed: false },
+    { "task": "Buy groceries", completed: true },
+    { "task": "Buy groceries", completed: true },
+  ]
+}
